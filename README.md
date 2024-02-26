@@ -2,41 +2,16 @@
 
 The official website for RoWhoIs.
 
+<p align="center">
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/RoWhoIs/robloxians.com?style=for-the-badge">
+<img alt="GitHub forks" src="https://img.shields.io/github/forks/RoWhoIs/robloxians.com?style=for-the-badge">
+<img alt="GitHub Issues or Pull Requests" src="https://img.shields.io/github/issues/RoWhoIs/robloxians.com?style=for-the-badge">
+</p>
+
+
 ## Deployment
 
 Due to the simple, static nature of the RoWhoIs website, creating instances, even ones not listed below, is incredibly easy.
-
-### NGINX
-
-1. Clone the repository
-```bash
- git clone https://github.com/RoWhoIs/robloxians.com ~/RoWhoIs/
- ```
-2. Configure NGINX
-```
-server {
-    listen 80;
-    server_name robloxians.com;
-
-    root ~/RoWhoIs/;
-
-    index index.html;
-
-    location / {
-        try_files $uri $uri/ =404;
-    }
-}
-```
-
-3. Enable the site
-```bash
-sudo ln -s /etc/nginx/sites-available/robloxians.com /etc/nginx/sites-enabled/
-```
-
-4. Reload NGINX
-```bash
-sudo systemctl reload nginx
-```
 
 ### Vercel
 1. Fork the repository
