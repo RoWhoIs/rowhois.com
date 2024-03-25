@@ -5,6 +5,16 @@
     <meta name="description" content="Help keep RoWhoIs free for everyone, forever.">
     <link rel="icon" href="/resources/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="/resources/misc-style.css">
+    <script>
+        function o_github() {window.open("https://github.com/sponsors/aut-mn");}
+        function d_btc() {
+            const btcAddress = "bc1qvg5rmnjag3vk7cu2yectlzvpyfjgm54k3j3uev";
+            const button = document.querySelector('button[onclick="d_btc()"]');
+            navigator.clipboard.writeText(btcAddress).then(function() {
+                button.textContent = "Copied to clipboard!";
+                setTimeout(function(){button.textContent = "Donate Bitcoin";}, 750);
+            });}
+    </script>
 </head>
 <body>
     <div class="banner">
@@ -16,16 +26,16 @@
             </ul>
         </div>
     </div>
-    <div class="content">
-        <div class="section">
-            <div id="bot-image"><img src="resources/donate-btc.png" alt="Bitcoin QR code"></div>
-            <div class="text-container">
-                <h1>Donate to RoWhoIs</h1>
-                <p>Help keep RoWhoIs free for everyone, forever.<br> Contact our support email with proof of a $5+ donation to get a custom icon next to your whois search!<br><br>Bitcoin: <b><i>bc1qvg5rmnjag3vk7cu2yectlzvpyfjgm54k3j3uev</i></b></p>
+        <div class="content">
+            <div class="section">
+                <div class="text-container">
+                    <h1>Donate to RoWhoIs</h1>
+                    <p>Help keep RoWhoIs running for everyone, forever.<br> Contact our support email with proof of a $5+ donation to get a custom icon next to your whois search!</p>
+                    <button type="button" onclick="o_github()">Sponsor on GitHub</button>
+                    <button type="button" onclick="d_btc()">Donate Bitcoin</button>
+                </div>
             </div>
         </div>
-    </div>
-
     <footer>
         <div class="footer-content">
             <p><a href="/Terms-Of-Service">Terms of Service</a> | <a href="/Privacy-Policy">Privacy Policy</a> | <a href="mailto:support@robloxians.com">Support</a></p>
