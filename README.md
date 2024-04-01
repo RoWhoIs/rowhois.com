@@ -1,11 +1,11 @@
-# Robloxians.com
+# RoWhoIs.com
 
 The official website for RoWhoIs.
 
 <p align="center">
-<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/RoWhoIs/robloxians.com?style=for-the-badge">
-<img alt="GitHub forks" src="https://img.shields.io/github/forks/RoWhoIs/robloxians.com?style=for-the-badge">
-<img alt="GitHub Issues or Pull Requests" src="https://img.shields.io/github/issues/RoWhoIs/robloxians.com?style=for-the-badge">
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/RoWhoIs/rowhois.com?style=for-the-badge">
+<img alt="GitHub forks" src="https://img.shields.io/github/forks/RoWhoIs/rowhois.com?style=for-the-badge">
+<img alt="GitHub Issues or Pull Requests" src="https://img.shields.io/github/issues/RoWhoIs/rowhois.com?style=for-the-badge">
 </p>
 
 
