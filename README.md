@@ -11,7 +11,7 @@ The official website for RoWhoIs.
 
 ## Deployment
 
-Due to the simple, static nature of the RoWhoIs website, creating instances, even ones not listed below, is incredibly easy.
+Due to the simple nature of the RoWhoIs website, creating instances, even ones not listed below, is incredibly easy.
 
 ### Vercel
 1. Fork the repository
