@@ -1,227 +1,319 @@
 /* BODY */
 * {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    overflow: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow: hidden;
 }
 
 body {
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../public/bkg-blur.png);
-    background-size: cover;
-    background-position: center;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../public/bkg-blur.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .navbar ul li a:hover::after {
-    transform: scaleX(1);
-    transform-origin: left;
+  transform: scaleX(1);
+  transform-origin: left;
 }
 
 /* MAIN CONTENT */
 .content {
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    color: #fff;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
 }
 .content h1 {
-    font-size: 70px;
-    margin-top: 25px;
+  font-size: 70px;
+  margin-top: 25px;
 }
-.content img{
-    flex-shrink: 0;
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
-    border-radius: 50%;
-    object-fit: cover;
+.content img {
+  flex-shrink: 0;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 .content p {
-    margin: 20px auto;
-    font-weight: bold;
-    line-height: 25px;
+  margin: 20px auto;
+  font-weight: bold;
+  line-height: 25px;
 }
 
 /* LEGAL CONTENT */
 .legal-content {
-    width: 50%;
-    padding: 20px;
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 15px;
-    background-color: rgba(93, 93, 93, 0.3);
-    backdrop-filter: blur(10px);
-    overflow-y: scroll;
-    box-sizing: border-box;
-    color: #fff;
-    line-height: 1.25;
-    max-height: 85%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 50%;
+  padding: 20px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 15px;
+  background-color: rgba(93, 93, 93, 0.3);
+  backdrop-filter: blur(10px);
+  overflow-y: scroll;
+  box-sizing: border-box;
+  color: #fff;
+  line-height: 1.25;
+  max-height: 85%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .legal-content p {
-    text-indent: 2em;
+  text-indent: 2em;
 }
 
 .legal-content a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 /* COLUMN CONTENT */
 .column-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-    height: 70vh;
-    transition: all 0.5s ease-in-out;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  height: 70vh;
+  transition: all 0.5s ease-in-out;
+  width: 100%;
 }
 
 .column-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.5s ease-in-out;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+  width: 100%;
 }
 
 .column-section:hover {
-    transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 .column-section img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    padding: 1%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  padding: 1%;
 }
 
 .column-section h1 {
-    padding-bottom: 1%;
+  padding-bottom: 1%;
 }
 
 .text-container {
-    color: #fff;
-    max-width: 50%;
-    padding: 1em;
+  color: #fff;
+  max-width: 50%;
+  padding: 1em;
 }
 
 .text-container p {
-    text-indent: 1em;
+  text-indent: 1em;
 }
 
 /* NAVBAR */
 .navbar {
-    width: 85%;
-    margin: auto;
-    padding: 35px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navbar img {
-    width: 64px;
+  width: 64px;
 }
 
 .navbar ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 12px;
-    position: relative;
-    font-weight: bold;
+  list-style: none;
+  display: inline-block;
+  margin: 0 12px;
+  position: relative;
+  font-weight: bold;
 }
 
 .navbar ul li a:hover {
-    color: #cfe6fd;
+  color: #cfe6fd;
 }
 
 .navbar ul li a {
-    position: relative;
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    transition: color 0.3s ease;
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
 }
 
 .navbar ul li a::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 2px;
-    background: #1cc6e0;
-    transform: scaleX(0);
-    transform-origin: right;
-    transition: transform 0.5s ease;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #1cc6e0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s ease;
 }
 
 /* FOOTER */
 footer {
-    position: absolute;
-    bottom: 0;
-    font-size: small;
-    width: 100%;
-    background: #3c3b3b;
-    color: #fff;
-    text-align: center;
-    padding: 0.5% 0;
+  position: absolute;
+  bottom: 0;
+  font-size: small;
+  width: 100%;
+  background: #3c3b3b;
+  color: #fff;
+  text-align: center;
+  padding: 0.5% 0;
 }
 footer a {
-    color: #fff;
-    text-decoration: none;
-    font-family: sans-serif;
-    font-size: small;
-    transition: color 0.3s ease, border-bottom 0.3s ease;
+  color: #fff;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: small;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
 }
 footer a:hover {
-    color: #aaa;
-    border-bottom: 2px solid #aaa;
+  color: #aaa;
+  border-bottom: 2px solid #aaa;
 }
 
 /* BUTTON */
 button {
-    width: 200px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    border: 2px solid #54def0;
-    background: transparent;
-    color: #fff;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    transition: background 0.3s ease;
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #54def0;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: background 0.3s ease;
 }
 button:hover {
-    background: #54def0;
+  background: #54def0;
 }
 span {
-    background: #54def0;
-    height: 100%;
-    width: 0;
-    border-radius: 25px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: 0.5s;
+  background: #54def0;
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
 }
 button:hover span {
+  width: 100%;
+}
+
+@media screen and (max-width: 1340px) {
+  .about .text-container {
+    max-width: 60%;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .about button {
+    margin: 20px 5px;
+  }
+  .about .text-container {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about.column-content {
+    max-height: 90vh;
+    display: block;
+    overflow-y: auto;
+  }
+
+  .about .column-section {
+    flex-direction: column;
+  }
+
+  .about .buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about .text-container p {
+    text-indent: unset;
+  }
+
+  .legal-content {
     width: 100%;
+    max-width: 500px;
+    max-height: 80%;
+    top: 15%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .navbar {
+    padding: 10px 0;
+  }
+  .content {
+    position: static;
+    transform: unset;
+  }
+
+  .content img {
+    margin-right: 0;
+  }
+
+  .plus .column-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .plus .text-container {
+    max-width: 90%;
+  }
+
+  .plus .text-container p {
+    text-indent: unset;
+  }
+
+  .legal-content {
+    top: 12%;
+    max-width: 380px;
+  }
+
+  .legal-content > header,
+  .legal-content > section {
+    margin-bottom: 1.75rem;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .content button {
+    margin: 5px 10px;
+  }
+
+  .legal-content {
+    max-width: 320px;
+  }
 }
