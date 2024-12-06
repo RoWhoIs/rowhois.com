@@ -27,42 +27,14 @@ export default function Main() {
           <div className="text-container">
             <h1>About our Bot</h1>
             <p>
-              RoWhoIs is an advanced Roblox lookup tool that allows you to
+              RoWhoIs is the most advanced Roblox lookup tool that allows you to
               perform advanced user and item lookups, including seeing privated
-              player's inventories and grabbing clothing textures.
+              player's inventories and grabbing clothing textures, all while being
+              open-sourcev!
             </p>
             <div className="buttons-container">
               <button type="button" onClick={add_bot}>
-                <span></span>Add to server
-              </button>
-              <button type="button" onClick={open_server}>
-                <span></span>Support Server
-              </button>
-              <button type="button" onClick={open_github}>
-                <span></span>GitHub Page
-              </button>
-            </div>
-          </div>
-        </div>
-        <div className="column-section">
-          <img src="/profile_picture.jpeg" alt="Autumn's profile picture" />
-          <div className="text-container">
-            <h1>About our Creator</h1>
-            <p>
-              Heyhey! I'm Autumn. I develop RoWhoIs in my free time in between
-              college and a full-time job. I'm not much of a Roblox player but I
-              love their API and made some tools utilizing it. Some friends
-              recommended I make those tools public, et voila, we have RoWhoIs.
-            </p>
-            <div className="buttons-container">
-              <button type="button" onClick={open_discord}>
-                <span></span>Discord Profile
-              </button>
-              <button type="button" onClick={open_roblox}>
-                <span></span>Roblox Profile
-              </button>
-              <button type="button" onClick={open_personal_github}>
-                <span></span>GitHub Profile
+                <span></span>View Repository
               </button>
             </div>
           </div>
