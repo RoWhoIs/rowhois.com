@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { Navigation, Footer } from "@/modules/navigation";
-import { add_bot, open_server, open_github } from "@/modules/links.js";
+import { add_bot,open_github } from "@/modules/links.js";
 export default function Main() {
   return (
     <>
@@ -19,8 +19,11 @@ export default function Main() {
         <h1>RoWhoIs</h1>
         <p>The most advanced open-source Roblox lookup Discord utility.</p>
         <div>
-          <button type="button" onClick={open_server}>
+          <button type="button" onClick={add_bot}>
             <span></span>View Source
+          </button>
+          <button type="button" onClick={open_github}>
+            <span></span>Other Projects
           </button>
         </div>
       </div>
