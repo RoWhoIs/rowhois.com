@@ -5,7 +5,6 @@ export function Navigation(){
                 <a href="/"><img src="/rwi-logo.png" alt="Home" /></a>
                 <ul>
                     <li><a href="/about">About</a></li>
-                    <li><a href="/plus">Plus</a></li>
                 </ul>
             </div>
         </div>
